@@ -1,0 +1,67 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f4f4f9;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  padding: 3rem;
+  text-align: center;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+}
+.hero h2 {
+  margin-bottom: 1rem;
+}
+.hero .btn {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  margin-top: 1rem;
+  background: #fff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.hero .btn:hover {
+  background: #ddd;
+}
+
+/* Main Section */
+main {
+  padding: 2rem;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
