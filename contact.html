@@ -8,23 +8,36 @@
 </head>
 <body>
   <header>
-    <h1>Contact Us</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <h1 class="logo">Hamuj</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Get in Touch</h2>
-      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    </section>
-  </main>
+  <section class="page">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you. Reach out via email or use the form below.</p>
+
+    <ul class="contact-info">
+      <li>Email: <a href="mailto:info@hamuj.com">info@hamuj.com</a></li>
+      <li>Phone: +254 700 123 456</li>
+      <li>GitHub: <a href="https://github.com/hamuj" target="_blank">github.com/hamuj</a></li>
+    </ul>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
   <footer>
-    <p>© 2025 Hamuj Ventures. All rights reserved.</p>
+    <p>© 2025 Hamuj Ventures · All rights reserved.</p>
   </footer>
 </body>
 </html>
