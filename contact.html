@@ -1,45 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Hamuj Ventures</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - Hamuj</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Hamuj</h1>
-      <ul>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">
+        <img src="HamujLogo.png" alt="Hamuj Logo" class="nav-logo">
+        <span class="brand-name">Hamuj</span>
+      </div>
+      <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <img src="HamujLogo.png" alt="Hamuj Logo" class="hero-logo">
-    <h2>Contact Us</h2>
-    <p>We’d love to hear from you. Reach out today!</p>
-  </section>
+  <main class="container">
+    <section class="contact-hero">
+      <h1>Contact Us</h1>
+      <p class="lead">We'd love to hear from you — get in touch for volunteering, media, or enquiries.</p>
+    </section>
 
-  <section>
-    <form action="mailto:hamujent@gmail.com" method="post" enctype="text/plain">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <div style="text-align:center; margin-top:1rem;">
-      <p>Email: <a href="mailto:hamujent@gmail.com">hamujent@gmail.com</a></p>
-      <p>Phone: <a href="tel:+254702936663">0702936663</a></p>
+    <section class="contact-form-section">
+      <form action="mailto:hamujent@gmail.com" method="post" enctype="text/plain" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+
+      <div class="contact-details">
+        <h3>Office</h3>
+        <p>Address: [Office address here]</p>
+        <p>Email: <a href="mailto:hamujent@gmail.com">hamujent@gmail.com</a></p>
+        <p>Phone: <a href="tel:+254702936663">0702936663</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Hamuj Ventures</h4>
+        <p>Mombasa Ya Imarika</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: <a href="mailto:hamujent@gmail.com">hamujent@gmail.com</a></p>
+        <p>Phone: <a href="tel:+254702936663">0702936663</a></p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <p>
+          <a href="#" target="_blank">Twitter</a> ·
+          <a href="#" target="_blank">Facebook</a> ·
+          <a href="#" target="_blank">LinkedIn</a>
+        </p>
+      </div>
     </div>
-  </section>
-
-  <footer>
-    <p>© 2025 Hamuj Ventures</p>
+    <div class="container copyright">© 2025 Hamuj. All rights reserved.</div>
   </footer>
 </body>
 </html>

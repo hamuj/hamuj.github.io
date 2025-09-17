@@ -1,47 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hamuj Ventures</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hamuj - Mombasa Ya Imarika</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Hamuj</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">
+        <img src="HamujLogo.png" alt="Hamuj Logo" class="nav-logo">
+        <span class="brand-name">Hamuj</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <img src="HamujLogo.png" alt="Hamuj Logo" class="hero-logo">
-    <h2>Welcome to Hamuj Ventures</h2>
-    <p>Innovating the digital future.</p>
-  </section>
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <h1>Mombasa Ya Imarika</h1>
+        <p class="lead">A vision for prosperity, security, and opportunity across Mombasa. Join us to build a better future.</p>
+        <div class="cta">
+          <a class="btn primary" href="contact.html">Join Us</a>
+          <a class="btn outline" href="contact.html">Volunteer</a>
+          <a class="btn ghost" href="#donate">Donate</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <img src="HamujLogo.png" alt="Hamuj Badge" class="hero-badge">
+      </div>
+    </section>
 
-  <section class="cards">
-    <div class="card">
-      <h3>Tech Solutions</h3>
-      <p>Cutting-edge applications and platforms tailored for your needs.</p>
-    </div>
-    <div class="card">
-      <h3>Digital Services</h3>
-      <p>Smart tools to boost your online presence and business growth.</p>
-    </div>
-    <div class="card">
-      <h3>Innovation</h3>
-      <p>Pioneering ideas to transform the way the world works with technology.</p>
-    </div>
-  </section>
+    <section class="issues container">
+      <h2>Our Priorities</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Jobs & Economy</h3>
+          <p>Support local businesses, grow employment, and boost coastal commerce.</p>
+        </div>
+        <div class="card">
+          <h3>Youth Empowerment</h3>
+          <p>Training, internships, and tech opportunities for young people.</p>
+        </div>
+        <div class="card">
+          <h3>Infrastructure & Safety</h3>
+          <p>Invest in roads, clean water, and safer communities.</p>
+        </div>
+      </div>
+    </section>
 
-  <footer>
-    <p>© 2025 Hamuj Ventures</p>
+    <section id="donate" class="donate container">
+      <h2>Support the Campaign</h2>
+      <p>Your contributions make our work possible. Every small donation helps.</p>
+      <a class="btn primary" href="contact.html">Donate</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Hamuj Ventures</h4>
+        <p>Mombasa Ya Imarika</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: <a href="mailto:hamujent@gmail.com">hamujent@gmail.com</a></p>
+        <p>Phone: <a href="tel:+254702936663">0702936663</a></p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <p>
+          <a href="#" target="_blank">Twitter</a> ·
+          <a href="#" target="_blank">Facebook</a> ·
+          <a href="#" target="_blank">LinkedIn</a>
+        </p>
+      </div>
+    </div>
+    <div class="container copyright">© 2025 Hamuj. All rights reserved.</div>
   </footer>
 </body>
 </html>
